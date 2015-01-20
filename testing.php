@@ -21,13 +21,6 @@ $table='user';
 
 
 
-
-
-
-
-
-
-
 //$user=$DB->get_record($table, array('id'=>$newuserobj->id) , $fields='*', $strictness=IGNORE_MISSING); 
 
 echo "<pre>";
