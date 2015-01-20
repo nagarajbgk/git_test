@@ -15,11 +15,8 @@ $table='user';
 
 $user=$DB->get_record_sql('SELECT * FROM {user} WHERE firstname = :firstname AND lastname = :lastname', 
                        array('firstname' => 'Nagaraj','lastname'=> 'K'));
-
 $conditions='';
 $table='user'; 
-
-
 
 //$user=$DB->get_record($table, array('id'=>$newuserobj->id) , $fields='*', $strictness=IGNORE_MISSING); 
 
