@@ -13,10 +13,6 @@ $table='user';
 
 "Hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
 
-
-
-
-
 */
 
 $user=$DB->get_record_sql('SELECT * FROM {user} WHERE firstname = :firstname AND lastname = :lastname', 
